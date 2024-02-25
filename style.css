@@ -228,12 +228,12 @@
     width: 100%;
 }
 .Rheader{
-    margin-top: 5%;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
 }
 .Rcontent{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,6 +243,7 @@
     display: flex;
     justify-content: space-between;
     width: 760px;
+    margin: 50px;
 }
 .RCheader button{
     background-color: #F2EFE5;
@@ -263,22 +264,61 @@
     grid-template-rows: repeat(2, 400px);
     gap: 40px;
     width: 760px;
-    margin: 2%;
 }
 .EXPboxcontainer div{
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 20px;
     background-color: #ffffff;
-    box-shadow: 0px 1px 20px #a2a1a1;
+}
+.cmpny{
+    margin: 40px;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+}
+.cmpny li p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.dcpt{
+    margin: 40px;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+}
+.dcpt li{
+    text-transform: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.dcpt li p{
+    font-size: 15px;
 }
 .EDboxcontainer{
     display: grid;
     grid-template-rows: repeat(3, 400px);
     gap: 40px;
     width: 760px;
-    margin: 2%;
 }
 .EDboxcontainer div{
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 20px;
     background-color: #ffffff;
-    box-shadow: 0px 1px 20px #a2a1a1;
+}
+.SSboxcontainer{
+    margin: 100px;
+    display: grid;
+    grid-template-rows: 600px;
+    gap: 40px;
+    width: 760px;
+}
+.SSboxcontainer div{
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 20px;
+    background-color: #ffffff;
 }
 /* Resume */
 .footer{
