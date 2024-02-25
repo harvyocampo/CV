@@ -43,9 +43,12 @@
     display: flex;
     margin-left: 50px;
 }
+.nav-container .logo p{
+    text-transform: none;
+}
 .box-dot{
     position: relative;
-    background-color: #B4B4B8;
+    background-color: #92C7CF;
     top: 5px;
     left: -10px;
     height: 20px;
@@ -59,14 +62,26 @@
     font-size: 1.5em;
     font-weight: 100;
 }
+
+.nav-container li{
+    font-size: 1em;
+}
+
 .nav-container ul{
     display: flex;
     gap: 15px;
     margin-right: 50px;
 }
-.nav-container li{
-    font-size: 1em;
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: none;
 }
+
+.open{
+    color: #92C7CF;
+}
+
 /* Home */
 .color-underlay{
     position: relative;
@@ -76,7 +91,7 @@
     height: 960px;
 }
 .left-underlay{
-    background-color: #B4B4B8;
+    background-color: #E5E1DA;
 }
 .profile-container{
     display: flex;
@@ -94,7 +109,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #E3E1D9;
+    background-color: #FBF9F1;
     height: 100%;
     width: 380px;
 }
@@ -106,7 +121,7 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    left: 100px;
+    left: 90px;
     top: 50px;
 }
 .profile h1{
@@ -114,7 +129,7 @@
     top: 80px;
 }
 .profile .profile-line{
-    background-color: #B4B4B8;
+    background-color: #92C7CF;
     top: 120px;
     left: 150px;
     width: 80px;
@@ -185,22 +200,26 @@
     height: 30px;
     width: 120px;
     background-color: #ffffff;
-    border: 2px solid #B4B4B8;
+    border: 2px solid #92C7CF;
     border-radius: 20px;
     
 }
 .profile-buttons .resume{
-    background-color: #C7C8CC;
-    color: #ffffff;
+    background-color: #AAD7D9;
     transition: 0.3s;
 }
 .profile-buttons .resume a{
+    color: #ffffff;
     top: 0px;
     transition: 0.3s;
 }
-.profile-buttons .resume:hover {
+.profile-buttons .resume:hover{
+    color: black;
     background-color: #ffffff;
     cursor: pointer;
+}
+.profile-buttons .resume:hover a {
+    color: black;
 }
 
 .right-underlay{
@@ -218,7 +237,7 @@
     position: fixed;
 }
 .Rcontainer{
-    background-color: #B4B4B8;
+    background-color: #E5E1DA;
     position: relative;
     display: grid;
     grid-row: span 2;
@@ -231,6 +250,14 @@
     margin-top: 120px;
     display: flex;
     justify-content: center;
+}
+.box{
+    position: relative;
+    background-color: #92C7CF;
+    top: 8px;
+    left: -10px;
+    height: 20px;
+    width: 20px;
 }
 .Rcontent{
     margin-top: 50px;
@@ -246,7 +273,8 @@
     margin: 50px;
 }
 .RCheader button{
-    background-color: #F2EFE5;
+    background-color: #92C7CF;
+    color: #E3E1D9;
     border: none;
     border-radius: 20px;
     height: 40px;
@@ -254,9 +282,8 @@
     transition: 0.5s;
 }
 .RCheader button:hover{
-    background-color: #B4B4B8;
-    border: 2px solid #E3E1D9;
-    color: #E3E1D9;
+    background-color: #FBF9F1;
+    color: black;
     cursor: pointer;
 }
 .EXPboxcontainer{
@@ -280,6 +307,7 @@
 .cmpny li p{
     font-size: 15px;
     margin-top: 10px;
+    margin-left: 0;
 }
 .dcpt{
     margin: 40px;
@@ -290,9 +318,10 @@
 .dcpt li{
     text-transform: none;
     font-size: 18px;
-    margin-top: 10px;
+    margin-left: 0;
 }
 .dcpt li p{
+    margin-top: 10px;
     font-size: 15px;
 }
 .EDboxcontainer{
