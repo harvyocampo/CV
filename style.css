@@ -66,6 +66,14 @@
 .nav-container li{
     font-size: 1em;
 }
+.nav-container li a {
+    text-decoration: none;
+    color: none;
+    transition: 0.3s;
+}
+.nav-container li a:hover {
+    color: #92C7CF;
+}
 
 .nav-container ul{
     display: flex;
@@ -73,10 +81,6 @@
     margin-right: 50px;
 }
 
-.nav-container ul li a {
-    text-decoration: none;
-    color: none;
-}
 
 .open{
     color: #92C7CF;
@@ -304,6 +308,9 @@
     flex-direction: row;
     align-items: center;
 }
+.cmpny li h4{
+    color: #92C7CF;
+}
 .cmpny li p{
     font-size: 15px;
     margin-top: 10px;
@@ -335,6 +342,20 @@
     grid-template-columns: 300px auto;
     gap: 20px;
     background-color: #ffffff;
+}
+.schl{
+    margin: 40px;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+}
+.schl li h4{
+    color: #92C7CF;
+}
+.schl li p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 0;
 }
 .SSboxcontainer{
     margin: 100px;
